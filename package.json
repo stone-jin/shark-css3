@@ -1,0 +1,28 @@
+{
+  "name": "shark-css3",
+  "version": "1.0.0",
+  "description": "create a new css",
+  "main": "_shark-css3.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-sass --output-style expanded index.scss output/index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stone-jin/shark-css3.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stone-jin/shark-css3/issues"
+  },
+  "homepage": "https://github.com/stone-jin/shark-css3#readme",
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7"
+  },
+  "devDependencies": {
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "open": "0.0.5"
+  }
+}
